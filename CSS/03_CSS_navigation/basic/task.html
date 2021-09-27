@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            padding: 15px;
+        }    
+        #menu{
+            padding: 0px;
+            border-radius: 5px; 
+            width: 1000px;
+            height: 35px; 
+            cursor: default;
+            position: relative;    
+        }
+        .monday, .tuesday, .wednesday, .thursday, .friday, .saturday{
+            float: left;
+            margin: 3px 0px 3px 3px;
+            width: 150px;
+            font-size: 20px; 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+         ul{            
+            width: 150px;    
+            list-style: none;   
+            padding: 0;  
+            margin: 0 0 0 0;   
+            font-family: 'Times New Roman', sans-serif;   
+            font-size: 16px;    
+            text-align: center;   
+            }
+        li ul{        
+            position: absolute;   
+            display: none;   
+            margin-left: 0px;
+            margin-top: 0px;
+            }
+        li a{   
+            display: block; 
+            padding: 5px;   
+            text-decoration: none;
+            color: rgb(0, 0, 0);   
+            border-radius: 5px;  
+            box-shadow: 0px 0px 0px 2px #872ca3;    
+            background: #50cae9; 
+            }  
+        li a:hover{   
+            color: rgb(252, 252, 252);
+            box-shadow: 0px 0px 5px 2px #000000;
+            background: #c5496e;    
+
+            }
+        li a:active{  
+            color: #000000;
+            box-shadow: 0px 0px 15px 5px #50cae9;
+            background: #c7869a;
+            }
+        li:hover ul {  
+            display: block; 
+            }      
+</style>
+</head>
+<body>
+    <div>
+        <nav>
+        <ul id="menu">
+            <li class="monday"><a href="">Понедельник</a> 
+                <div>
+                    <ul>
+                        <li> <a href="">Завтрак</a> </li>
+                        <li><a href="">Обед</a> </li>
+                        <li><a href="">Ужин</a> </li>
+                    </ul>
+                </div>    
+            </li>
+            <li class="tuesday"><a href="">Вторник</a>
+                <div>
+                    <ul>
+                        <li> <a href="">Завтрак</a> </li>
+                        <li><a href="">Обед</a> </li>
+                        <li><a href="">Ужин</a> </li>
+                    </ul>
+                </div>  
+            </li> 
+            <li class="wednesday"><a href="">Среда</a>
+                <div>
+                    <ul>
+                    <li> <a href="">Завтрак</a> </li>
+                    <li><a href="">Обед</a> </li>
+                    <li><a href="">Ужин</a> </li>
+                </ul>
+                </div>
+            </li>    
+            <li class="thursday"><a href="">Четверг</a>
+                <div>
+                    <ul>
+                        <li> <a href="">Завтрак</a> </li>
+                        <li><a href="">Обед</a> </li>
+                        <li><a href="">Ужин</a> </li>
+                    </ul>
+                </div>
+            </li> 
+            <li class="friday"><a href="">Пятница</a>
+                <div>
+                    <ul>
+                        <li> <a href="">Завтрак</a> </li>
+                        <li><a href="">Обед</a> </li>
+                        <li><a href="">Ужин</a> </li>
+                    </ul>
+                </div>
+                
+            </li>    
+            <li class="saturday"><a href="">Суббота</a>
+                <div>
+                    <ul>
+                        <li> <a href="">Завтрак</a> </li>
+                        <li><a href="">Обед</a> </li>
+                        <li><a href="">Ужин</a> </li>
+                    </ul>
+                </div>
+                    
+            </li>                              
+        </ul>   
+    </nav>
+    </div>
+    
+</body>
+</html>
